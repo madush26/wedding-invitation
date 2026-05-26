@@ -9,6 +9,14 @@ body{
     overflow:hidden;
     background:#fce4ec;
 }
+body{
+    -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
 
 /* COVER PAGE */
 
@@ -73,29 +81,27 @@ body{
     transition:2s;
 }
 
+
+
 .card-content{
-    width:500px;
-    background:rgba(255,255,255,0.9);
-    padding:40px;
-    border-radius:25px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,0.3);
-    animation:zoom 2s;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
 }
 
+
 .couple-names{
-    font-family:'Great Vibes', cursive;
-    font-size:60px;
-    color:#d81b60;
-    margin-bottom:20px;
+    font-size: 38px;
+    word-wrap: break-word;
 }
 
 .invite-text{
-    font-size:18px;
-    margin-bottom:30px;
-    color:#444;
-    line-height:1.8;
+    font-size: 16px;
+    line-height: 1.6;
 }
+
 
 .details h2{
     color:#d81b60;
@@ -108,14 +114,10 @@ body{
 }
 
 .location-btn{
-    display:inline-block;
-    margin-top:30px;
-    padding:15px 30px;
-    background:#d81b60;
-    color:white;
-    text-decoration:none;
-    border-radius:50px;
-    transition:0.4s;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .location-btn:hover{
@@ -180,6 +182,12 @@ body{
     background:rgba(255,255,255,0.6);
 }
 
+    
+* {
+    box-sizing: border-box;
+}
+    
+
 .countdown h2{
     color:#d81b60;
     font-size:20px;
@@ -187,9 +195,11 @@ body{
 }
 
 #timer{
-    font-size:18px;
-    font-weight:bold;
-    color:#333;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
 }
 
 #timer span{
