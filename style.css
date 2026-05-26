@@ -13,9 +13,9 @@ body{
     -webkit-text-size-adjust: 100%;
 }
 
-html, body {
-    width: 100%;
-    overflow-x: hidden;
+html, body{
+    width:100%;
+    overflow-x:hidden;
 }
 
 /* COVER PAGE */
@@ -84,22 +84,24 @@ html, body {
 
 
 .card-content{
-    width: 90%;
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 20px;
+    width:100%;
+    max-width:420px;
+    background:rgba(255,255,255,0.92);
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
 }
 
 
 .couple-names{
-    font-size: 38px;
-    word-wrap: break-word;
+    font-size:34px;
+    word-break:break-word;
 }
 
 .invite-text{
-    font-size: 16px;
-    line-height: 1.6;
+    font-size:15px;
+    line-height:1.6;
 }
 
 
@@ -183,8 +185,8 @@ html, body {
 }
 
     
-* {
-    box-sizing: border-box;
+*{
+    box-sizing:border-box;
 }
     
 
@@ -195,11 +197,11 @@ html, body {
 }
 
 #timer{
-    font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:5px;
+    font-size:14px;
 }
 
 #timer span{
