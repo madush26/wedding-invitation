@@ -33,7 +33,7 @@ img, video {
 
 .cover{
     width:100%;
-    height:75vh;
+    height:25vh;
     background:linear-gradient(135deg,#ff9a9e,#fad0c4);
     display:flex;
     justify-content:center;
