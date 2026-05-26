@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,43 +23,49 @@
 <!-- CARD -->
 <div class="card" id="card">
 
-    <div class="card-content">
+    <div class="card-box">
 
-        <h1 class="couple-names"><br><br>
-            
-            Aaliya ❤️ Shakthi</h1>
+        <h1 class="couple">
+            Aaliya ❤️ Shakthi
+        </h1>
 
-        <p class="invite-text">
+        <p class="invite">
             Together with our families, we invite you to celebrate our special day.
         </p>
 
-        <div class="details">
-            <h2>📅 Date</h2>
-            <p>04 July 2026</p>
+        <div class="grid">
+            <div class="box">
+                <h3>📅 Date</h3>
+                <p>04 July 2026</p>
+            </div>
 
-            <h2>⏰ Time</h2>
-            <p>11:00 AM onwards</p>
+            <div class="box">
+                <h3>⏰ Time</h3>
+                <p>11:00 AM onwards</p>
+            </div>
 
-            <h2>📍 Venue</h2>
-            <p>Royal Kandyan Hotel, Kandy, Sri Lanka</p>
+            <div class="box full">
+                <h3>📍 Venue</h3>
+                <p>Royal Kandyan Hotel, Kandy, Sri Lanka</p>
+            </div>
         </div>
 
         <!-- COUNTDOWN -->
         <div class="countdown">
             <h2>⏳ Countdown</h2>
-            <div id="timer">
-                <span id="days"></span> Days
-                <span id="hours"></span> Hours
-                <span id="minutes"></span> Minutes
-                <span id="seconds"></span> Seconds
+            <div class="timer">
+                <div><span id="days">0</span><small>Days</small></div>
+                <div><span id="hours">0</span><small>Hours</small></div>
+                <div><span id="minutes">0</span><small>Min</small></div>
+                <div><span id="seconds">0</span><small>Sec</small></div>
             </div>
         </div>
 
-        <a href="https://maps.google.com" target="_blank" class="location-btn">
-            View Location
+        <a class="btn" href="https://maps.google.com" target="_blank">
+            📍 View Location
         </a>
 
-        <p class="footer-text">
+        <p class="footer">
             We would be delighted to have you join us on our memorable day.
         </p>
 
@@ -67,7 +73,7 @@
 </div>
 
 <!-- MUSIC -->
-<audio autoplay loop>
+<audio id="music" loop>
     <source src="wedding-music.mp3" type="audio/mp3">
 </audio>
 
